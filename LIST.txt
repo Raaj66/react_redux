@@ -1,0 +1,32 @@
+1.Intro
+redux is a local store to store all details like user, and api details everything
+we can create only one Redux store
+
+2.Architecture
+View = Action = Reducer = store
+
+3.Installation
+Node, NPM , 
+npx create-react-app Pname;
+install redux
+install react-redux to connect react and redux
+
+4.Props revision
+state = to send data between one component
+props = to send data between two components
+
+pass some data at first compo
+and fetch it in the second
+
+5.Folder structure
+compoenets
+  Home.js
+container
+  Homecontainer.js
+services
+Action
+  action.js
+reducer
+  index.js
+  constant.js
+  reducer.js
