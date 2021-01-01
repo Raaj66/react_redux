@@ -30,3 +30,14 @@ reducer
   index.js
   constant.js
   reducer.js
+
+6.Designed a add to cart page 
+
+7.learn action and constant 
+constant = write the constants
+action = import constants
+
+8.reducer and root Reducer
+send these actions to store
+reducer = write all reducer
+rootReducer = list all reducers 

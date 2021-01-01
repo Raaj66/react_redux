@@ -1,8 +1,10 @@
 import React from 'react';
+import { addToCart } from '../services/Actions/Action';
 
 
 
-function Home() {
+function Home(props) {
+    console.warn("Home",props)
     return (
         <div>
             <div className="cartimg">
@@ -22,7 +24,9 @@ function Home() {
                     </span>
                 </div>
                 <div>
-                 <button>AddToCart</button>
+                 <button 
+                 onClick={()=>props.addToCartHandler({price: 1000,name : 'iphone'})
+                }>AddToCart</button>
                 </div>
             </div>
         </div>

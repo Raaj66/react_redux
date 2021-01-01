@@ -40,15 +40,15 @@
 .cart {
   height:  100px;
   width:  100px;
-  background-color: skyblue;
-  margin-right: 20px;
+  /* background-color: skyblue; */
+  margin-right: 30px;
   border-radius: 10px;
   
 }
 button{
   border-radius: 5;
   width: 100px;
-  margin-left: 20px;
+  margin-left: 30px;
   padding: 10px;
   background: pink;
   border: 0;
